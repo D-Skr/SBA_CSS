@@ -1,0 +1,54 @@
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home</title>
+    <link rel="stylesheet" type="text/css" media="all" href="main.css">
+    <link rel="stylesheet" type="text/css" media="all" href="responsive.css">
+</head>
+
+<body>
+    <video autoplay muted loop id="myVideo">
+        <source src="digital_grid.mp4" type="video/mp4">
+    </video>
+        
+    <div id="page">
+            <div class="topnav">
+                <a class="active_tab" href="index.html">Home</a>
+                <a href="comments.html">Comments</a>
+                <a href="about.html">About</a>
+            </div>
+        <div id="main">
+            <div id="full_size">
+             <div id="welcome">
+                <h1>WELCOME GUEST!</h1>
+                <h3>Please login</h3>
+            </div>
+            <form action="action_page.php" method="post">
+                <div class="imgcontainer">
+                  <img src="img_avatar.png" alt="Avatar" class="avatar">
+                </div>
+              
+                <div class="container">
+                  <label for="uname"><b>Email</b></label>
+                  <input type="text" placeholder="Enter Your Email" name="uname" required>
+              
+                  <label for="psw"><b>Password</b></label>
+                  <input type="password" placeholder="Enter Password" name="psw" required>
+              
+                  <button type="submit">Login</button>
+                  <label>
+                    <input type="checkbox" checked="checked" name="remember"> Remember me
+                  </label>
+                </div>
+              
+                <div class="container" style="background-color:#f1f1f1">
+                  <button type="button" class="cancelbtn">Cancel</button>
+                  <span class="psw">Forgot <a href="#">password?</a></span>
+                </div>
+              </form> 
+
+        </div>
+</body>
+
+</html>
